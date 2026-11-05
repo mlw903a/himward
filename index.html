@@ -30,6 +30,10 @@
       .x-feature img { width: 100%; height: auto; border-radius: var(--r-m); border: 1px solid var(--stroke-secondary); }
       .x-feature > div { display: grid; gap: 16px; }
       .x-feature h3 { font: var(--type-heading); }
+      .x-pull { margin: 0; padding-left: 16px; border-left: 2px solid var(--stroke-primary); max-width: 560px; }
+      .x-pull blockquote { margin: 0; font: var(--type-heading); color: var(--text-primary); text-wrap: balance; }
+      .x-pull figcaption { margin-top: 8px; font: var(--type-small); color: var(--text-secondary); }
+      .x-pull cite { font-style: italic; }
       @media (max-width: 599px) { .x-feature { grid-template-columns: minmax(0, 1fr); } .x-feature img { max-width: 220px; } }
     </style>
   </head>
@@ -40,7 +44,6 @@
         <section class="hero">
           <img class="hero__img" src="himward-hero.png" alt="A footpath through Texas Hill Country" />
           <div class="hero__copy">
-            <p class="hero__eyebrow">Not ruleward. Not goodward. Himward.</p>
             <h1>Mark Williams</h1>
             <p class="hero__sub">Retired tech CFO. Author of First I Pray. Co-founder of Oceanbags Foundation. Austin, TX.</p>
           </div>
@@ -79,6 +82,10 @@
                 <p>Real-time prayer in ordinary moments, written for people who have walked with God a long time.</p>
                 <p><strong>All royalties go to the Oceanbags Foundation.</strong></p>
               </div>
+              <figure class="x-pull">
+                <blockquote>“Authentic, powerful and refreshingly honest … true wisdom without Christian grandstanding or pretenses.”</blockquote>
+                <figcaption>— Michael Reinemann, author of <cite>The Mind of Christ</cite></figcaption>
+              </figure>
               <div class="links">
                 <a class="btn" href="https://www.amazon.com/dp/B0HHQSSS2J" target="_blank" rel="noopener">Paperback $4.99</a>
                 <a class="btn" href="https://www.amazon.com/dp/B0HM5K17SH" target="_blank" rel="noopener">Kindle $0.99</a>
