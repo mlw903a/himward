@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Himward — Mark Williams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400&display=swap"
+    />
+    <link rel="stylesheet" href="hark.css" />
+    <link rel="stylesheet" href="hark-hero.css" />
+    <style>
+      .x-bio { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; max-width: 640px; }
+      .x-bio a {
+        display: flex; align-items: center; justify-content: space-between; gap: 16px;
+        min-height: 60px; padding: 12px 20px;
+        border-radius: var(--r-m); background: var(--fill-tertiary);
+        border: 1px solid var(--stroke-secondary);
+        color: var(--text-primary); text-decoration: none; font: var(--type-body);
+        font-weight: var(--weight-medium);
+        transition: border-color var(--dur-quick) var(--ease-out);
+      }
+      .x-bio a:hover { border-color: var(--stroke-primary); }
+      .x-bio small { display: block; font: var(--type-small); color: var(--text-secondary); margin-top: 2px; }
+      .x-bio a::after { content: "\2197"; color: var(--text-secondary); flex: none; }
+      .x-feature { display: grid; grid-template-columns: minmax(0, 240px) minmax(0, 1fr); gap: clamp(20px, 3vw, 40px); align-items: start; }
+      .x-feature img { width: 100%; height: auto; border-radius: var(--r-m); border: 1px solid var(--stroke-secondary); }
+      .x-feature > div { display: grid; gap: 16px; }
+      .x-feature h3 { font: var(--type-heading); }
+      @media (max-width: 599px) { .x-feature { grid-template-columns: minmax(0, 1fr); } .x-feature img { max-width: 220px; } }
+    </style>
+  </head>
+  <body>
+    <div class="page" id="top">
+      <header class="nav glass" data-auto></header>
+      <main class="main">
+        <section class="hero">
+          <img class="hero__img" src="himward-hero.png" alt="A footpath through Texas Hill Country" />
+          <div class="hero__copy">
+            <p class="hero__eyebrow">Not ruleward. Not goodward. Himward.</p>
+            <h1>Mark Williams</h1>
+            <p class="hero__sub">Retired tech CFO. Author of First I Pray. Co-founder of Oceanbags Foundation. Austin, TX.</p>
+          </div>
+          <aside class="callout" aria-label="Next step">
+            <p class="callout__head"><span class="hark-mark" data-size="16"></span> New book</p>
+            <p class="callout__lead"><strong>Get First I Pray.</strong> Paperback $4.99, Kindle $0.99.</p>
+            <a class="btn" href="https://www.amazon.com/dp/B0HHQSSS2J" target="_blank" rel="noopener">Get First I Pray</a>
+          </aside>
+        </section>
+
+        <section class="section" id="links" data-nav="Links">
+          <div class="head"><h2>Find Mark's work</h2></div>
+          <ul class="x-bio">
+            <li><a href="https://www.amazon.com/dp/B0HHQSSS2J" target="_blank" rel="noopener"><span>First I Pray, paperback<small>$4.99 on Amazon</small></span></a></li>
+            <li><a href="https://www.amazon.com/dp/B0HM5K17SH" target="_blank" rel="noopener"><span>First I Pray, Kindle<small>$0.99 on Amazon</small></span></a></li>
+            <li><a href="https://youtu.be/BvKbTALD038" target="_blank" rel="noopener"><span>Free audiobook<small>On YouTube</small></span></a></li>
+            <li><a href="https://open.spotify.com/show/7FqXOAIWtxJJCEDGNHUXwf" target="_blank" rel="noopener"><span>Audiobook on Spotify<small>$2.99</small></span></a></li>
+            <li><a href="https://firstipray.com" target="_blank" rel="noopener"><span>The book's site<small>firstipray.com</small></span></a></li>
+            <li><a href="https://www.youtube.com/@JuniorPartners/shorts" target="_blank" rel="noopener"><span>Short daily clips<small>On YouTube</small></span></a></li>
+            <li><a href="https://www.instagram.com/mlw903/" target="_blank" rel="noopener"><span>Instagram<small>@mlw903</small></span></a></li>
+            <li><a href="https://kidsandplanet.com" target="_blank" rel="noopener"><span>Oceanbags Foundation<small>Kids and Planet</small></span></a></li>
+            <li><a href="https://www.amazon.com/stores/Mark-Williams/author/B0HM83DJMB" target="_blank" rel="noopener"><span>Mark's Amazon author page</span></a></li>
+          </ul>
+        </section>
+
+        <section class="section" id="book" data-nav="The book">
+          <div class="head">
+            <p class="head__eyebrow">Lingo Press, Austin · Released October 2026</p>
+            <h2>First I Pray: Walking Humbly With Our God</h2>
+          </div>
+          <div class="x-feature">
+            <img src="First-I-Pray-cover-stream-kdp.jpg" alt="Cover of First I Pray: Walking Humbly With Our God" />
+            <div>
+              <div class="prose">
+                <p>A short book about bringing the actual moment to the Father first, before fear, comparison, ego or the past takes the first seat.</p>
+                <p>Real-time prayer in ordinary moments, written for people who have walked with God a long time.</p>
+                <p><strong>All royalties go to the Oceanbags Foundation.</strong></p>
+              </div>
+              <div class="links">
+                <a class="btn" href="https://www.amazon.com/dp/B0HHQSSS2J" target="_blank" rel="noopener">Paperback $4.99</a>
+                <a class="btn" href="https://www.amazon.com/dp/B0HM5K17SH" target="_blank" rel="noopener">Kindle $0.99</a>
+                <a class="btn" href="https://youtu.be/BvKbTALD038" target="_blank" rel="noopener">Free audiobook</a>
+              </div>
+              <p class="fineprint">Audio narration uses a digital clone of Mark's voice.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="about" data-nav="About">
+          <div class="head"><h2>About Mark</h2></div>
+          <div class="x-feature">
+            <img src="head-b.jpg" alt="Mark Williams" />
+            <div class="prose">
+              <p>Business owner and tech CFO for most of his career.</p>
+              <p>In 2023 he co-founded the Oceanbags Foundation with his wife Toni and Zane Haas. Their bags have gone to the Thailand–Myanmar border, the jungles of India, Mexico border towns and Central America, and their Teacher Totes put storybooks in Title I classrooms. Mark and Toni take no pay.</p>
+              <p>He's active in missions at Riverbend Church in Austin.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="next" data-nav="Next books">
+          <div class="head"><h2>More books on the way</h2><p class="head__sub">Published through Lingo Press.</p></div>
+          <div class="cards">
+            <div>
+              <h3>TEND</h3>
+              <p class="fineprint">Working title; final title still being chosen.</p>
+              <p class="quote">Recovering the ancient art of being human.</p>
+              <p>Why what we believe and how we live drift apart, and how to close the gap.</p>
+              <p><span class="chip chip--solid">Final edits</span></p>
+            </div>
+            <div>
+              <h3>The Promise of Power</h3>
+              <p class="quote">Dusting off a familiar promise.</p>
+              <p>Jesus' last promise in Acts 1:8, and what happened to the power He said we'd receive.</p>
+              <p><span class="chip">In revision</span></p>
+            </div>
+          </div>
+          <div class="aside">
+            <h3>In the works</h3>
+            <div class="breakdown">
+              <dl>
+                <div class="row"><dt>Hello Cortisol <small>A biblical look at modern stress.</small></dt></div>
+                <div class="row"><dt>The Pilgrim's Manifesto <small>Living as Kingdom citizens in exile.</small></dt></div>
+                <div class="row"><dt>Three Vows <small>A parable built on Micah 6:8: do justice, love mercy, walk humbly.</small></dt></div>
+                <div class="row"><dt>The Wisdom of Christ <small>Lessons from 1 Corinthians 1–4.</small></dt></div>
+                <div class="row"><dt>Believers Mind Manifesto <small>Using God's gifts for peace, joy, and wisdom.</small></dt></div>
+                <div class="row"><dt>The Forty Days <small>What the risen Christ talked about in His forty days with the apostles.</small></dt></div>
+                <div class="row"><dt>Always Be Abiding <small>Short meditations on John 15:5.</small></dt></div>
+              </dl>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="toni" data-nav="Toni">
+          <div class="head">
+            <p class="head__eyebrow">Also at our house</p>
+            <h2>Toni Haas-Williams</h2>
+          </div>
+          <div class="pair">
+            <div class="prose">
+              <p>Mark's wife Toni writes as T.C. Haas. She's the author of the Kids and Planet picture books and a YA graphic hybrid novel coming soon, <em>The Color of Fire</em>.</p>
+              <p>An educator for most of her life, she's also written optioned movie scripts and award-winning fiction.</p>
+              <div class="links">
+                <a class="btn" href="https://tchaas.com" target="_blank" rel="noopener">Visit tchaas.com</a>
+                <a class="btn" href="https://kidsandplanet.com" target="_blank" rel="noopener">Kids and Planet books</a>
+              </div>
+            </div>
+            <div class="breakdown">
+              <dl>
+                <div class="row"><dt>Good to Go <small>Kids and Planet</small></dt><dd>1</dd></div>
+                <div class="row"><dt>My Tiny Tiger <small>Kids and Planet</small></dt><dd>2</dd></div>
+                <div class="row"><dt>A Little Something <small>Kids and Planet</small></dt><dd>3</dd></div>
+                <div class="row"><dt>Here <small>Kids and Planet</small></dt><dd>4</dd></div>
+                <div class="row"><dt>The Do-Who <small>Kids and Planet</small></dt><dd>5</dd></div>
+              </dl>
+              <p class="fineprint">The Kids and Planet series, in order.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="follow">
+          <div class="head"><h2>Want to hear when the next one is out?</h2></div>
+          <div class="links"><a class="btn" href="https://www.instagram.com/mlw903/" target="_blank" rel="noopener">Follow on Instagram</a></div>
+        </section>
+      </main>
+      <footer class="foot">
+        <p>© 2026 Mark Williams · Published by Lingo Press, Austin, TX</p>
+      </footer>
+    </div>
+    <script src="hark.js"></script>
+  </body>
+</html>
